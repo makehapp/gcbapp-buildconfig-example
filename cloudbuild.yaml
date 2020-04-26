@@ -30,7 +30,7 @@ steps:
   args:
   - 'run'
   - 'deploy'
-  - '$SERVICE_NAME'
+  - 'dockerbuildtest1'
   - '--image'
   - 'gcr.io/$PROJECT_ID/myimage:$COMMIT_SHA'
   - '--region'
